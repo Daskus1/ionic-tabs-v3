@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list *ngFor="let value of values">
+    <ion-item>
+      <h2>I'm item number:</h2>
+      <p>{{value}}</p>
+    </ion-item>
+  </ion-list>
+</ion-content>
