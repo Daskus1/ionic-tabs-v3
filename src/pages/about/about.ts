@@ -10,7 +10,10 @@ import { NavController, IonicPage } from 'ionic-angular';
 export class AboutPage {
 
   constructor(public navCtrl: NavController) {
+  }
 
+  ionViewDidLoad(){
+    console.log("ionViewDidLoad() AboutPage")
   }
 
 }
